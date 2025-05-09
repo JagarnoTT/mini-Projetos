@@ -11,7 +11,11 @@ public class SomandoComfor{
 
         for (int i = 1; i <= num; i++){
             soma += i;
+
+        if (soma >= 15){
+            break;
         }
+    }
         System.out.println("O numero que você digitou é: " + num + " se o mesmo for somado, receberemos o valor de " + soma);
 
         sc.close();
