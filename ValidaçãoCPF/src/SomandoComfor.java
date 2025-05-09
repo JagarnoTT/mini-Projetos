@@ -9,9 +9,11 @@ public class SomandoComfor{
 
         int soma = 0;
 
-        for (int i = 0; i <= num; i++){
+        for (int i = 1; i <= num; i++){
             soma += i;
         }
         System.out.println("O numero que você digitou é: " + num + " se o mesmo for somado, receberemos o valor de " + soma);
+
+        sc.close();
     }
 }
